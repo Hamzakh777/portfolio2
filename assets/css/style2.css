@@ -573,7 +573,17 @@ footer img {
     }
 }
 
-
+@media(max-width: 450px) {
+    .nav-wrapper-f ul li a{
+        display: none;
+    }
+    footer {
+        text-align: center;
+    }
+    footer p {
+        font-size: 25px;
+    }
+}
 
 
 

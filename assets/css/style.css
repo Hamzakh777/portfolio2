@@ -354,6 +354,12 @@ section#about-me .icon-video {
     }
 }
 
+@media(max-width: 400px) {
+    section#about-me .icon-pencil, section#about-me .icon-mouse, section#about-me .icon-browser, section#about-me .icon-video {
+        display: none;
+    }
+}
+
 section#about-me .blurb {
     max-width: 700px;
     padding: 10px;

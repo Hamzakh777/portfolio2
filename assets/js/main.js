@@ -220,19 +220,57 @@ sr.reveal('.client-logo', {
 
 // for the contact section
 
-sr.reveal('#social-contact h3', {
-    
+sr.reveal('#contact', {
+    duration: 2000, 
+    origin: 'top',
+    delay: 300,
+    viewFactor: 0.5
+})
+
+sr.reveal('.social-links' , {
+    duration: 2000,
+    origin: 'bottom',
+    viewFactor:0.4,
+    opacity: 0
+})
+
+sr.reveal('.biglink', {
+    duration: 2000,
+    origin: 'top',
+    viewFactor: 0.4,
 })
 
 
+// for the form section
 
+sr.reveal('#form h3', {
+    duration: 2000,
+    origin: 'top',
+    viewFactor: 0.4,
+    opacitY: 0
+})
 
+sr.reveal('form' , {
+    duration: 2000,
+    origin: 'bottom',
+    viewFactor:0.6,
+    opacity: 0
+})
 
+// for the footer section
 
+sr.reveal('.nav-f', {
+    duration: 2000,
+    origin: 'left',
+    opacity: 0
+}, 100)
 
-
-
-
+sr.reveal('footer .back-to-top', {
+    duration: 2000,
+    origin: 'right',
+    opacity: 0,
+    delay: 300
+})
 
 
 
