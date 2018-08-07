@@ -83,7 +83,9 @@
 /*loader screen spinner*/
 
 .spinner {
-  margin: 100px auto;
+  position: absolute;
+  top: 48%;
+  left: 48%;
   width: 50px;
   height: 40px;
   text-align: center;
