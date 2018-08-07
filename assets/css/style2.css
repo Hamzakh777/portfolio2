@@ -368,7 +368,7 @@ margin-top: 50px;
     }
     
     .social-links a {
-        font-size: 50px;
+        font-size: 60px;
     }
 }
 
@@ -378,13 +378,13 @@ margin-top: 50px;
     }
     
     .social-links a {
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 
 @media(max-width: 500px) {
     .biglink {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
