@@ -364,7 +364,7 @@ margin-top: 50px;
 
 @media(max-width:950px) {
     .biglink {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     .social-links a {
@@ -374,7 +374,7 @@ margin-top: 50px;
 
 @media(max-width: 750px) {
     .biglink {
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .social-links a {
@@ -384,7 +384,7 @@ margin-top: 50px;
 
 @media(max-width: 500px) {
     .biglink {
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 
@@ -395,8 +395,8 @@ margin-top: 50px;
 
 /*---------------------------form section---------------------*/
 #form {
-    color: #fff;
-    background-color:#131a20;
+    color: #000;
+    background-color:#fff;
     border-top: 4px solid #ED4B6B;
     overflow: auto;
     border-bottom: 4px solid #ED4B6B;

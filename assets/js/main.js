@@ -134,6 +134,7 @@ sr.reveal('.nav li', {
     duration: 1600,
     scale: 0.9,
     opacity:0,
+    mobile: false
 })
 
 sr.reveal('.logo', {
@@ -146,7 +147,7 @@ sr.reveal('.logo', {
 sr.reveal('.intro-wrapper', {
     origin: 'right',
     duration:1600,
-    mobile:true,
+    mobile:false,
     scale: 0.5,
     opacity:0,
 })
@@ -154,7 +155,7 @@ sr.reveal('.intro-wrapper', {
 sr.reveal('#down-btn', {
     origin: 'bottom',
     duration: 1000,
-    mobile:true,
+    mobile:false,
     delay:500
 });
 
@@ -177,26 +178,27 @@ sr.reveal('.face-img', {
     delay: 300,
     duration: 1000,
     viewFactor: 0.2,
-    mobile: true
+    mobile: false
 });
 
 sr.reveal('.for-reveal-left', {
     origin: 'left',
     duration: 1500,
-    mobile: true,
+    mobile: false,
     viewFactor: 0.2
 });
 
 sr.reveal('.for-reveal-right', {
     origin: 'right',
     duration: 1500, 
-    mobile: true,
+    mobile: false,
     viewFactor: 0.2
 });
 
 sr.reveal('.skill-unit',{
     duration: 1600,
-    viewFactor:0.8
+    viewFactor:0.8,
+    mobile: false
 },200);
 
 
@@ -204,7 +206,8 @@ sr.reveal('.skill-unit',{
 
 sr.reveal('#work h3', {
     duration: 1500,
-    origin: 'top'
+    origin: 'top',
+    mobile: false
 });
 
 sr.reveal('.thumb-unit', {
@@ -218,23 +221,27 @@ sr.reveal('.thumb-unit', {
 
 sr.reveal('#clients h3', {
     duration: 1600,
-    origin: 'top'
+    origin: 'top',
+    mobile: false
 })
 
 sr.reveal('.client-control-next', {
     duration: 2000,
     origin: 'right',
+    mobile: false
 })
 
 sr.reveal('.client-control-previous', {
     duration: 2000,
-    origin: 'left'
+    origin: 'left',
+    mobile: false
 })
 
 sr.reveal('.client-logo', {
     duration: 2000,
     origin: 'bottom',
-    delay: 300
+    delay: 300,
+    mobile: false
 }, 200)
 
 
@@ -244,20 +251,23 @@ sr.reveal('#contact', {
     duration: 2000, 
     origin: 'top',
     delay: 300,
-    viewFactor: 0.5
+    viewFactor: 0.5,
+    mobile: false
 })
 
 sr.reveal('.social-links' , {
     duration: 2000,
     origin: 'bottom',
     viewFactor:0.4,
-    opacity: 0
+    opacity: 0,
+    mobile: false
 })
 
 sr.reveal('.biglink', {
     duration: 2000,
     origin: 'top',
     viewFactor: 0.4,
+    mobile: false
 })
 
 
@@ -267,14 +277,16 @@ sr.reveal('#form h3', {
     duration: 2000,
     origin: 'top',
     viewFactor: 0.4,
-    opacitY: 0
+    opacitY: 0,
+    mobile: false
 })
 
 sr.reveal('form' , {
     duration: 2000,
     origin: 'bottom',
     viewFactor:0.6,
-    opacity: 0
+    opacity: 0,
+    mobile: false
 })
 
 // for the footer section
@@ -282,14 +294,16 @@ sr.reveal('form' , {
 sr.reveal('.nav-f', {
     duration: 2000,
     origin: 'left',
-    opacity: 0
+    opacity: 0,
+    mobile: false
 }, 100)
 
 sr.reveal('footer .back-to-top', {
     duration: 2000,
     origin: 'right',
     opacity: 0,
-    delay: 300
+    delay: 300,
+    mobile: false
 })
 
 

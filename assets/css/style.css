@@ -19,6 +19,8 @@ body{
 
 .landing-page {
     height:100vh;
+    width: 100%;
+    min-height:400px;
     background-image: url(../img/bg3.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -26,7 +28,6 @@ body{
 
 .landing-page {
     display: flex;
-
     flex-direction: column;
     
 }
@@ -41,6 +42,7 @@ nav {
     float:left;
     margin-top:16px;
     margin-left: 16px;
+    transition: 1s all ease-in-out;
 }
 
 .logo a {
@@ -75,33 +77,39 @@ nav {
 @media screen and (max-width: 864px) {
       .logo {
             padding: 0;
+            float: right;
       }
  
       .nav-wrapper {
+            padding: 0;
             position: fixed;
             top: 0;
-            left: 0;
-            width: 100%;
+            right: 0;
+            width:70%;
             height: 100%;
             z-index: -1;
             background: #fff;
             opacity: 0;
             transition: all 0.2s ease-in-out;
             margin:0;
+            box-shadow: -5px 0px 20px 0px rgba(0,0,0, 0.5);
       }
  
       .nav-wrapper ul {
             position: absolute;
             top: 50%;
+            left: 5%;
             transform: translateY(-50%);
-            width: 80%;
+            width: fit-content;
+            align-self: center;
+            padding: 0;
       }
  
       .nav-wrapper ul li {
             display:block;
             float: none;
             width: 100%;
-            text-align: right;
+            text-align: left;
             margin-bottom: 20px;
             clear:both;
       }
@@ -150,6 +158,8 @@ nav {
             cursor: pointer;
             z-index: 9999;
             border-radius: 50%;
+            margin:0;
+            float: left;
       }
  
       .nav-btn i {
@@ -265,12 +275,19 @@ nav {
 }
 
 @media(max-width:800px) {
+    .intro .intro-wrapper {
+        float:none;
+        text-align: center;
+    }
     .intro h2 {
         font-size: 85px;
-        text-align: right;    
+        text-align: center;
+        margin: 10px auto;
+        box-sizing: border-box;
+        width: fit-content;
     }
     .intro span {
-        text-align: left;
+        text-align: center;
     }
     .intro {
         margin:180px 5px 50px 5px;
@@ -280,11 +297,15 @@ nav {
 
 @media(max-width:540px) {
     .intro h2 {
-        font-size:65px;
+        font-size:45px;
     }
     .intro p {
-        font-size: 18px;
-        margin: 20px 0 20px 0;
+        font-size: 14px;
+        margin: 10px 0 20px 0;
+    }
+    .intro .intro-wrapper {
+        float:none;
+        text-align: center;
     }
 }
 
@@ -352,12 +373,30 @@ section#about-me .icon-video {
         display: block;
         background-position: center center;
     }
+    section#about-me .face-img img {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    }
 }
 
 @media(max-width: 400px) {
     section#about-me .icon-pencil, section#about-me .icon-mouse, section#about-me .icon-browser, section#about-me .icon-video {
         display: none;
     }
+    section#about-me .face-img img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    }
+    section#about-me .blurb p{
+        font-size: 18px;
+    }
+    section#about-me .blurb {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    
 }
 
 section#about-me .blurb {
