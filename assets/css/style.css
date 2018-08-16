@@ -84,7 +84,7 @@ nav {
             padding: 0;
             position: fixed;
             top: 0;
-            right: 0;
+            left: 0;
             width:70%;
             height: 100%;
             z-index: -1;
@@ -150,7 +150,7 @@ nav {
  
       .nav-btn {
             position: fixed;
-            right: 10px;
+            left: 10px;
             top: 10px;
             display: block;
             width: 48px;
@@ -292,6 +292,10 @@ nav {
     .intro {
         margin:180px 5px 50px 5px;
     }
+    #button img{
+        height: 70px;
+        width:70px;
+    }
     
 }
 
@@ -306,6 +310,10 @@ nav {
     .intro .intro-wrapper {
         float:none;
         text-align: center;
+    }
+    #button img {
+        height: 60px;
+        width: 60px;
     }
 }
 
@@ -378,6 +386,10 @@ section#about-me .icon-video {
     height:150px;
     border-radius: 50%;
     }
+    section#about-me .blurb {
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
 }
 
 @media(max-width: 400px) {
@@ -414,6 +426,7 @@ section#about-me .blurb {
     margin:100px auto;
     color: #001f3f;
     padding-bottom: 320px;
+    height: fit-content;
 }
 
 .skill-lockup .skill-unit {
@@ -490,12 +503,23 @@ section#about-me .blurb {
         width:270px;
         margin:100px auto;
     }
-    
+    .skill-label {
+        font-size: 16px;
+    }
+    .skill-lockup {
+        margin-top:30px;
+    }
 }
 @media (max-width:760px){
     .skill-lockup {
         width:270px;
         margin:100px auto;
+    }
+    .skill-label {
+        font-size: 18px;
+    }
+    .skill-lockup {
+        margin-top: 50px
     }
     
 }
